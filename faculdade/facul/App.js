@@ -11,13 +11,13 @@ export default function imc (){
 
   if (resultadoIMC <= 18.5){
     resultado = 'Magreza'
-  } else if (resultadoIMC >= 18.6 || resultadoIMC <= 24.9) {
+  } else if (resultadoIMC >= 18.6 && resultadoIMC <= 24.9) {
     resultado = 'Peso Normal'
-  } else if (resultadoIMC >= 25 || resultadoIMC <= 29.9) {
+  } else if (resultadoIMC >= 25 && resultadoIMC <= 29.9) {
     resultado = 'Sobrepeso'
-  } else if (resultadoIMC >= 30 || resultadoIMC <= 34.9) {
+  } else if (resultadoIMC >= 30 && resultadoIMC <= 34.9) {
     resultado = 'Obesidade de Grau I'
-  } else if (resultadoIMC >= 35 || resultadoIMC <= 39.9) {
+  } else if (resultadoIMC >= 35 && resultadoIMC <= 39.9) {
     resultado = 'Obesidade de Grau II'
   } else {
     resultado = 'Obesidade de Grau III'
